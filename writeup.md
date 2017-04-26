@@ -24,14 +24,14 @@ The goals / steps of this project are the following:
 [image7]: ./examples/scaled.png "Traffic Sign 3"
 [image8]: ./examples/warped.png "Augumented Visualization"
 [image9]: ./examples/brightness.png "Traffic Sign 3"
-[image10]: ./examples/visualization_augumented.png "Augumented Visualization"
+[image10]: ./examples/visualization_augumentation.png "Augumented Visualization"
 [image11]: ./test_images/Turn_Left_Ahead_No34.png "Traffic Sign 8"
-[image12]: ./test_images/Speed_Limit_60kmph_No3.png "Traffic Sign 8"
-[image13]: ./test_images/No_Entry_No17.png "Traffic Sign 8"
-[image14]: ./test_images/Roadwork_No25.png "Traffic Sign 8"
+[image12]: ./test_images/Speed_Limit_60kmph_No3.jpg "Traffic Sign 8"
+[image13]: ./test_images/No_Entry_No17.jpg "Traffic Sign 8"
+[image14]: ./test_images/Roadwork_No25.jpg "Traffic Sign 8"
 [image15]: ./test_images/Keep_Right_No38.png "Traffic Sign 8"
 [image16]: ./test_images/Speed_Limit_30kmph_No1.png "Traffic Sign 8"
-[image17]: ./test_images/Pedestrians_No27.png "Traffic Sign 8"
+[image17]: ./test_images/Pedestrians_No27.jpg "Traffic Sign 8"
 [image18]: ./test_images/General_Caution_No18.png "Traffic Sign 8"
 [image19]: ./examples/lenet.png "LeNet architecture"
 
@@ -89,7 +89,7 @@ Post this i took the mean of the normalized dataset images and then plotted the 
 
 Here is an example of traffic sign image before and after this step:
 
-![alt text][image3]  ![alt text][image4]
+![alt text][image3]
 
 
 ####Q2. Describe how, and identify where in your code, you set up training, validation and testing data. How much data was in each set? Explain what techniques were used to split the data into these sets. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, identify where in your code, and provide example images of the additional data)
@@ -101,19 +101,20 @@ The code for augumentation & data generation is contained in 8th to 13th code ce
 
 Here are the examples of each augumentation function w.r.t the original image fed to the function.
 
-Original Image
-![alt text][image5]
-
 Translation
+
 ![alt text][image6]
 
 Scaling
+
 ![alt text][image7]
 
 Warp
+
 ![alt text][image8]
 
 Brightness adjustments
+
 ![alt text][image9]
 
 The difference between the original data set and the augmented data set is shown by below histogram.
